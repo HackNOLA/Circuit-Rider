@@ -1,6 +1,6 @@
 # fly.toml file generated for bitter-sunset-6418 on 2022-08-22T20:53:54-05:00
 
-app = "bitter-sunset-6418"
+app = "circuit-rider"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
