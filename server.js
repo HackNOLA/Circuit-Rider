@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const routes = require("./routes");
 var db = require("./models");
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3003;
 const bodyParser = require("body-parser")
 
 const cookieParser = require('cookie-parser');
@@ -19,13 +19,15 @@ app.use(express.json({
 }));
 
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+// if (process.env.NODE_ENV === "production") {
+// }
+
+app.use(express.static("client/build"));
+
 app.use('*', (req, res) => res.sendFile(path.join(__dirname, 'client', 'build', 'index.html')));
+
 // app.use(cookieParser());rs
 // Add routes, both API and view
-
 
 
 // app.use((req, res, next) => {
@@ -39,7 +41,7 @@ app.use('*', (req, res) => res.sendFile(path.join(__dirname, 'client', 'build', 
 
 //   next();
 // });
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/thelongway");
+mongoose.connect("mongodb+srv://admin:Orangetrainfalcon@cluster0.5b5w3.mongodb.net/?retryWrites=true&w=majority");
 const dB = mongoose.connection;
 dB.once("open", () => console.log("hello world!"))
 app.use(routes);
