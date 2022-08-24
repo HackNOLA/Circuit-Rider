@@ -11,7 +11,7 @@ function PlayerCol() {
                 <img alt="Profile" className="player-pic" src={"https://s3.amazonaws.com/Website_Properties/what-we-believe/images/Circuit_Rider_Quiz/Circuit-rider-280.jpg"} />
             </div>
             <div className="row">
-                <h1 id="player-name" style={{ marginTop: "20px" }}>John</h1>
+                <h1 id="player-name" style={{ marginTop: "20px" }}>Robert</h1>
                 <h4 className="player-job" style={{ color: "goldenrod" }}>Circuit Rider</h4>
                 <div className="row" id="stat-container" style={{ margin: 0 + "auto" }}>
                     <div className="container">
