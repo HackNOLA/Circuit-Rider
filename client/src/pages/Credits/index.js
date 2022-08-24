@@ -9,34 +9,18 @@ const Credits = () => {
                         <h4>CREDITS</h4>
                     </div>
                     <div className="row">
-                        <h4 className="credit-title">Front End + Story Design</h4>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Adam Jeske</p>
+                        <h4 className="credit-title">Writing, Story Design</h4>
+                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Matt Rawle</p>
                     </div>
                     <div className="row">
-                        <h4 className="credit-title">Back End + Database</h4>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Caitlan Jeffrey</p>
+                        <h4 className="credit-title">Full Stack Developer</h4>
+                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Eric O'Neal Jr.</p>
                     </div>
                     <div className="row">
-                        <h4 className="credit-title">Front End + Writing + Asset Creation</h4>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Kevin Adamski</p>
-                    </div>
-                    <div className="row">
-                        <h4 className="credit-title">Front End + UI + Asset Creation</h4>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Liam Heckman</p>
-                    </div>
-                    <div className="row">
-                        <h4 className="credit-title">Back End + Database</h4>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Loren Kolstad</p>
-                    </div>
-                    <div className="row">
-                        <h4 className="credit-title">Special Thanks</h4>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Our Teachers, Marcelo Gachet and Alec Branaa</p>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Our TA's, Austin Shepard, Leah Weston, Justin Singh, and Haffed Ali</p>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>/r/PixelArt</p>
-                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Khaled "kldpxl"</p>
+                        <h4 className="credit-title">Full Stack Developer</h4>
+                        <p className="event-text" style={{ fontFamily: "Arcade" }}>Akintunde Pounds</p>
                     </div>
                 </div>
-
             </div>
         </div>
     );

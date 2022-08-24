@@ -1,6 +1,6 @@
-# fly.toml file generated for bitter-sunset-6418 on 2022-08-22T20:53:54-05:00
+# fly.toml file generated for billowing-sea-8167 on 2022-08-23T18:08:49-05:00
 
-app = "circuit-rider"
+app = "billowing-sea-8167"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []

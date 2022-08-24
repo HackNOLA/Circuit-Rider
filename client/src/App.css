@@ -42,8 +42,8 @@ nav {
 
 body {
   /* background-color: #222222; */
-  /* background-image: url("./images/body_battern.png"); */
-  background-image: url("./images/bg-img.png");
+  background-image: url("./images/body_battern.png");
+  /* background-image: url("./images/bg-img.png"); */
   background-size: cover;
 }
 

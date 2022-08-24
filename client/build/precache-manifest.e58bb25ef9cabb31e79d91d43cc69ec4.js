@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "270b554a48069ebeabeb32a8dc863b34",
+    "revision": "9c28fac3fdd7d14187247a770c6434c2",
     "url": "/index.html"
   },
   {
-    "revision": "495bcf6bcdcbe7d76d25",
-    "url": "/static/css/main.e2b38267.chunk.css"
+    "revision": "aec632e995cb1568ebf3",
+    "url": "/static/css/main.8ea4a965.chunk.css"
   },
   {
-    "revision": "adeb1f34f0c870be8d43",
-    "url": "/static/js/2.2389d0ae.chunk.js"
+    "revision": "3c98a877a8b38474aa66",
+    "url": "/static/js/2.b99987e7.chunk.js"
   },
   {
     "revision": "0e77ccc9007464ffd437757d6ef9c957",
-    "url": "/static/js/2.2389d0ae.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b99987e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "495bcf6bcdcbe7d76d25",
-    "url": "/static/js/main.0124705e.chunk.js"
+    "revision": "aec632e995cb1568ebf3",
+    "url": "/static/js/main.e00b7277.chunk.js"
   },
   {
     "revision": "0113c6786d9f2c6aa80d",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c19fc875e7ba1e6831129de3ab5ac0b",
     "url": "/static/media/RetroGaming.4c19fc87.ttf"
-  },
-  {
-    "revision": "044935e2f24c698f2430246b1ed7784d",
-    "url": "/static/media/bg-img.044935e2.png"
   },
   {
     "revision": "29402e93b23b85a2df5093b122389ec1",
