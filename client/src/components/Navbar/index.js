@@ -6,7 +6,7 @@ function Navbar() {
         <nav>
             <div className="container">
                 <div className="nav-wrapper">
-                    <img href="/" className="brand-logo logo-img valign-wrapper" alt="logo" src="https://project-3-arcade-game.s3-us-west-2.amazonaws.com/longwaylog.png" />
+                    <img href="/" className="brand-logo logo-img valign-wrapper" alt="logo" src={require("../../images/text-logo.png")} />
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li><Link to={"/"}>Home</Link></li>
                         <li><Link to={"/game"}>Play</Link></li>
