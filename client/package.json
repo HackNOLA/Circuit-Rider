@@ -1,7 +1,7 @@
 {
   "name": "src",
   "version": "1.0.0",
-  "proxy": "http://localhost:3002",
+  "proxy": "http://localhost:3003",
   "description": "",
   "main": "index.js",
   "dependencies": {
