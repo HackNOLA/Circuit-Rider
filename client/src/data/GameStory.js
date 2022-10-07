@@ -464,7 +464,7 @@ export default [
                 cost: 10
             },
             {
-                text: "Buy medicine?",
+                text: "Buy ?",
                 nextText: 8.2,
                 action: [6, 28],
                 hideIfAlreadyHas: 5,

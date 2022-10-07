@@ -54,7 +54,7 @@ function Game() {
         let player = playerState;
         let health = playerState.hp;
         let food = playerState.food;
-        let fuel = playerState.fuel;
+        let horse = playerState.horse;
         let money = playerState.money;
         let inventoryArr = playerState.inventory;
         let stateNum = storyState.id;
@@ -109,14 +109,14 @@ function Game() {
                     food = food + 5
                     break;
                 case 12:
-                    fuel = fuel - 5;
-                    console.log(fuel);
+                    horse = horse - 1;
+                    console.log(horse);
                     break;
                 case 13:
-                    fuel = fuel + 10;
+                    horse = horse + 1;
                     break;
                 case 14:
-                    fuel = fuel + 3
+                    horse = horse + 1
                     break;
                 case 15:
                     health = health - 10;
@@ -170,14 +170,14 @@ function Game() {
                     food = food + 10;
                     break;
                 case 32:
-                    fuel = fuel + 15;
+                    horse = horse + 2;
                     break;
                 case 33:
                     player = playableCharacters.filter(character => character.name === playerState.name)[0];
                     health = player.hp
                     money = player.money
                     food = player.food
-                    fuel = player.fuel
+                    horse = player.horse
                     inventoryArr = []
                     break;
                 case 34:
@@ -222,12 +222,12 @@ function Game() {
                 hp: health,
                 inventory: inventoryArr,
                 money: money,
-                fuel: fuel,
+                horse: horse,
                 state: stateNum
             });
             setStoryState(GameStory[80]);
             return;
-        } else if (fuel <= 0) {
+        } else if (horse <= 0) {
             console.log(player);
             setPlayerState({
                 ...playerState,
@@ -235,7 +235,7 @@ function Game() {
                 hp: health,
                 inventory: inventoryArr,
                 money: money,
-                fuel: fuel,
+                horse: horse,
                 state: stateNum
             });
             setStoryState(GameStory[81]);
@@ -247,7 +247,7 @@ function Game() {
                 hp: health,
                 inventory: inventoryArr,
                 money: money,
-                fuel: fuel,
+                horse: horse,
                 state: stateNum
             });
             setStoryState(GameStory[82]);
@@ -262,7 +262,7 @@ function Game() {
             hp: health,
             inventory: inventoryArr,
             money: money,
-            fuel: fuel,
+            horse: horse,
             state: stateNum
         });
     };

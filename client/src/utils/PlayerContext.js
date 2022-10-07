@@ -9,7 +9,7 @@ const PlayerContext = React.createContext({
     "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character-test.png",
   hp: 100,
   money: 100,
-  fuel: 5,
+  horse: 0,
   food: 100,
   state: 1,
   inventory: [

@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useContext, useState } from "react";
 import Typist from "react-typist";
 import StoryContext from "../../utils/StoryContext";
@@ -29,7 +30,7 @@ function GameCol(props) {
     }
 
     const pageWithTypist = (
-        <Typist avgTypingDelay={1} key={showTyping}>
+        <>
             <p className="event-text" style={{ fontFamily: 'Arcade', textTransform: 'initial' }}>{text}</p>
             {options.map(opt => {
                 if (!opt.showIfInventoryHas) {
@@ -53,7 +54,7 @@ function GameCol(props) {
                 }
             }
             )}
-        </Typist>
+        </>
     )
 
     const pageWithoutTypist = (

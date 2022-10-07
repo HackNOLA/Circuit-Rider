@@ -9,7 +9,7 @@ function PlayerCol() {
     const [cookies, setCookie] = useCookies(['character']);
     // const { hp, money, fuel, name, occupation, food, image } = useContext(PlayerContext);
     const [user] = useContext(UserContext);
-    const { hp, money, fuel, occupation, food, image } = cookies.character;
+    const { hp, money, horse, occupation, food, image } = cookies.character;
     const { username } = cookies.user;
 
     return (
@@ -43,10 +43,10 @@ function PlayerCol() {
                 <div className="row" style={{ margin: 0 + "auto" }}>
                     <div className="container">
                         <div className="col s6">
-                            <img className="right-align" style={{ maxWidth: 40 + "px" }} alt="HP" src="https://project-3-arcade-game.s3-us-west-2.amazonaws.com/gascan.gif" />
+                            <img className="right-align" style={{ maxWidth: 80 + "px"  }} alt="HP" src="https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1665177138/tinywow_horse_6453537_rr0frm.png" />
                         </div>
                         <div className="col s6">
-                            <h5 className="left-align" id="gas-value">{fuel}</h5>
+                            <h5 className="left-align" id="gas-value">{horse}</h5>
                         </div>
                     </div>
                 </div>
