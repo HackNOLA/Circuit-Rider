@@ -2,7 +2,7 @@ const playableCharacters = [
   {
     player_id: 0,
     name: "Adam",
-    occupation: "Nuclear Scientist",
+    occupation: "London Worker",
     image:
       "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_adam.gif",
     hp: 120,
@@ -15,7 +15,7 @@ const playableCharacters = [
   {
     player_id: 1,
     name: "Caitlan",
-    occupation: "Professional Fighter",
+    occupation: "Oxford Student",
     image:
       "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_caitlan.gif",
     hp: 90,
@@ -28,7 +28,7 @@ const playableCharacters = [
   {
     player_id: 2,
     name: "Kevin",
-    occupation: "Celebrity Actor",
+    occupation: "Circuit Rider",
     image:
       "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_kevin.gif",
     hp: 100,
@@ -41,26 +41,26 @@ const playableCharacters = [
   {
     player_id: 3,
     name: "Liam",
-    occupation: "Con Artist",
+    occupation: "???",
     image:
-      "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_liam.gif",
-    hp: 100,
-    money: 100,
-    fuel: 100,
-    food: 100,
+      "https://kanka-user-assets.s3.eu-central-1.amazonaws.com/notes/5cb8ac036c7ac_636207488454374266-1324134898_silhouette-man.jpg",
+    hp: "???",
+    money: "???",
+    fuel: "???",
+    food: "???",
     state: 0,
     inventory: []
   },
   {
     player_id: 4,
     name: "Loren",
-    occupation: "Astronaut",
+    occupation: "???",
     image:
-      "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_loren.gif",
-    hp: 200,
-    money: 50,
-    fuel: 50,
-    food: 80,
+      "https://kanka-user-assets.s3.eu-central-1.amazonaws.com/notes/5cb8ac036c7ac_636207488454374266-1324134898_silhouette-man.jpg",
+    hp: "???",
+    money: "???",
+    fuel: "???",
+    food: "???",
     state: 0,
     inventory: []
   }

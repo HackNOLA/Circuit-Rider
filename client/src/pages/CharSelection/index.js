@@ -3,6 +3,7 @@ import { useCookies } from 'react-cookie';
 import API from "../../utils/API"
 import playableCharacters from '../../data/Characters'
 import { UserContext } from '../../context/UserContext';
+import { Link } from "react-router-dom";
 import PlayerContext from '../../utils/PlayerContext';
 import "../../pages/Home/style.css";
 
@@ -47,14 +48,14 @@ function CharSelection(props) {
             <div className="row center-align">
                 <h4 style={{ marginTop: 30 + "px" }}>CHOOSE YOUR CHARACTER</h4>
             </div>
-            <div className="row center-align">
+            <div  style={{marginLeft: 0}} className="row center-align">
                 {playableCharacters.map(el =>
                     <button className="char-select col s5ths s2" key={el.name} id={el.name} onClick={() => {
                         console.log(el.name);
                         charSelect(el.name)
                     }}>
                         <img style={{ paddingTop: 15 + "px" }} src={el.image} alt={el.name} className="player-pic" />
-                        <h4>{el.name}</h4>
+                        {/* <h4>{el.name}</h4> */}
                         <h4 className="player-job" style={{ color: "goldenrod" }}>{el.occupation}</h4>
                         <p className="event-text">HP: {el.hp}</p>
                         <p className="event-text">Money: {el.money}</p>
@@ -64,7 +65,7 @@ function CharSelection(props) {
                 )}
             </div>
             <div className="row center-align">
-                <button className="continue-btn" onClick={() => { setStartState() }}><h4>CONTINUE</h4></button>
+            <Link to={"/game"}>                <button className="continue-btn" onClick={() => { setStartState() }}><h4>CONTINUE</h4></button></Link>
             </div>
         </div>
     );

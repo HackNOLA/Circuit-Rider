@@ -5,10 +5,11 @@ import HomeContainer from "../HomeContainer";
 import HomeCol from "../HomeCol";
 import HomeRow from "../HomeRow";
 import LoginBtn from "../LoginBtn";
+import { useCookies } from 'react-cookie';
 import "../../pages/Home/style.css";
 
 const Login = (props) => {
-
+    const [cookies, setCookie, removeCookie] = useCookies(['user']);
     const [formObject, setFormObject] = useState({
         username: "",
         password: "",
@@ -36,6 +37,7 @@ const Login = (props) => {
                 .then(res => {
                     console.log(res)
                     if (!res.data.err) {
+                        setCookie('user', res.data)
                         { history.push("/characters") }
                     } else {
                         alert("password failed. try again")
