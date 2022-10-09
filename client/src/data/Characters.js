@@ -7,7 +7,7 @@ const playableCharacters = [
       "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_adam.gif",
     hp: 120,
     money: 80,
-    horse: 0,
+    horse: 1,
     food: 100,
     state: 0,
     inventory: []
@@ -20,7 +20,7 @@ const playableCharacters = [
       "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_caitlan.gif",
     hp: 90,
     money: 110,
-    horse: 0,
+    horse: 1,
     food: 200,
     state: 0,
     inventory: []
@@ -33,7 +33,7 @@ const playableCharacters = [
       "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_kevin.gif",
     hp: 100,
     money: 20,
-    horse: 0,
+    horse: 1,
     food: 80,
     state: 0,
     inventory: []

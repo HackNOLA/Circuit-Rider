@@ -7,7 +7,7 @@ import { useCookies } from 'react-cookie';
 
 function PlayerCol() {
     const [cookies, setCookie] = useCookies(['character']);
-    // const { hp, money, fuel, name, occupation, food, image } = useContext(PlayerContext);
+    // const { hp, money, horse, name, occupation, food, image } = useContext(PlayerContext);
     const [user] = useContext(UserContext);
     const { hp, money, horse, occupation, food, image } = cookies.character;
     const { username } = cookies.user;

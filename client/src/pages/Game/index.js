@@ -8,6 +8,7 @@ import StoryContext from "../../utils/StoryContext";
 import GameStory from "../../data/GameStory";
 import useableItems from "../../data/useableItems";
 import playableCharacters from "../../data/Characters";
+import { useCookies } from 'react-cookie';
 
 for (let i = 0; i < GameStory.length; i++) {
     console.log(i + " - " + GameStory[i].id)
@@ -35,11 +36,16 @@ function Game() {
 
     const [storyState, setStoryState] = useState(GameStory[0]);
     // console.log(storyState.text)
-
+    const [cookies, setCookie] = useCookies(['character']);
     const [playerState, setPlayerState] = useState(playableCharacters[3]);
     // const [playerState, setPlayerState] = useState(playerProfile);
     // console.log(storyState.text);
-
+    // const { hp, 
+    //     money, 
+    //     horse, 
+    //     occupation, 
+    //     food, 
+    //     image } = cookies.character;
     // const getProgress = (state_id) => {
     //     let progressPercent = 0;
     //     progressPercent = Math.round(GameStory.length / GameStory.indexOf(state_id));
@@ -50,7 +56,7 @@ function Game() {
     const fetchState = nextText => GameStory.filter(instance => nextText === instance.id)[0];
 
     const actions = (actions, nextText) => {
-        // console.log(actions);
+        
         let player = playerState;
         let health = playerState.hp;
         let food = playerState.food;
@@ -58,7 +64,8 @@ function Game() {
         let money = playerState.money;
         let inventoryArr = playerState.inventory;
         let stateNum = storyState.id;
-        console.log(stateNum);
+        // console.log(stateNum);
+        console.log("actionnnn", actions)
         for (let i = 0; i < actions.length; i++) {
             const action = actions[i];
             switch (action) {
@@ -110,7 +117,6 @@ function Game() {
                     break;
                 case 12:
                     horse = horse - 1;
-                    console.log(horse);
                     break;
                 case 13:
                     horse = horse + 1;
