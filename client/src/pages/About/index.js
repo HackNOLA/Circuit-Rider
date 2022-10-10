@@ -5,7 +5,7 @@ const About = () => {
         <div className="container">
             <div className="row">
                 <div className="col s12 center-align">
-                    <img alt="logo" src="https://project-3-arcade-game.s3-us-west-2.amazonaws.com/longwaylog.png" style={{ marginTop: 50 + "px", marginBottom: 50 + "px" }} />
+                    <img alt="logo" src={require("../../images/text-logo.png")} style={{ marginTop: 50 + "px", marginBottom: 50 + "px", height: 50, width: 350}} />
                     <p className="event-text" style={{ fontFamily: "Arcade" }}>
                         Welcome to The Long Way, an oregon-trail style survival game in which you try to
                         navigate your way through a post-apocalyptic wasteland and make your way to safety.
