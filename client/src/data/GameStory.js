@@ -6,18 +6,18 @@ export default [
         id: 1,
         title: "Introduction",
         text:
-            "It’s been five years since the cataclysm. You’ve been etching out a living in what remains of Sacramento. The landscape of skyscrapers and towering structures had been reduced to smoldering piles of rubble from the near daily earthquakes. You’ve scraped by on supplies from various looting runs, but everything seems to be running out. The time to journey east is now. You’ve been modifying an old ford to make the journey, welding on armor and siphoning what gas you can. Before the signal died out last year, you picked up a radio signal repeating the message “Washington D.C. is the last remaining safe zone. For anyone listening, if you can make it here, we can help you.” You could hit the road now, or make one last stop at old Pete’s and buy additional supplies.",
+            "It is 1848, and beginning your journey with many kinds of people followed John Wesley and the early Methodists.",
         image:
             "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_1.gif",
         progress: 0,
         options: [
             {
-                text: "Leave without visiting the shop.",
+                text: "Attend a Holy Club meeting",
                 nextText: 1.1,
                 action: []
             },
             {
-                text: "Visit Old Pete's Shop.",
+                text: "Gather supplies.",
                 nextText: 1.2,
                 action: []
             }
@@ -43,7 +43,7 @@ export default [
         id: 1.2,
         title: "Introduction",
         text:
-            "You decide to visit old Pete one last time and see what he has that might be useful for the long journey.",
+            "You decide to gather supplies and see what he has that might be useful for the long journey. You can buy whatever you need at Matt's General Store.",
         image:
             "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_1.gif",
         progress: 0,
@@ -57,17 +57,31 @@ export default [
     },
     {
         id: 2,
-        title: "Welcome to Old Pete's Caravan",
+        title: "Welcome to Matt's General Store",
         text:
-            "You enter old Pete’s mobile home, greeted by a familiar but still overwhelming stench. Pete had a way of scavenging and crafting useful supplies, and was one of the few folks out there still accepting paper currency. ‘I still don’t see why you believe in that safezone nonsense,’a gruff voice bellows out from behind his scruffy moustache. But I guess this is goodbye then. Better stock up before you go, anything here you lookin to buy?.",
+            "Hello, I'm Matt. So you're on the a Circuit Rider journey? I can fix you up with anything you need.",
         image:
             "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_2.gif",
         progress: 4,
         options: [
             {
-                text: "Would you like to purchase an axe?(20)",
+                text: "Would you like to purchase a clothing?(20)",
                 nextText: 2,
                 action: [1, 28],
+                hideIfAlreadyHas: 0,
+                cost: 20
+            },
+            {
+                text: "Would you like to purchase a Bible?(20)",
+                nextText: 2,
+                action: [1, 28],
+                hideIfAlreadyHas: 0,
+                cost: 20
+            },
+            {
+                text: "Would you like to purchase a horse?(20)",
+                nextText: 2,
+                action: [1, 14],
                 hideIfAlreadyHas: 0,
                 cost: 20
             },
@@ -78,7 +92,7 @@ export default [
                 cost: 10
             },
             {
-                text: "Would you like to purchase fuel for your travels?(15)",
+                text: "Would you like to purchase supplies for your travels?(15)",
                 nextText: 2,
                 action: [27, 13],
                 cost: 15
@@ -464,7 +478,7 @@ export default [
                 cost: 10
             },
             {
-                text: "Buy medicine?",
+                text: "Buy ?",
                 nextText: 8.2,
                 action: [6, 28],
                 hideIfAlreadyHas: 5,

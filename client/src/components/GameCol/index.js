@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useContext, useState } from "react";
 import Typist from "react-typist";
 import StoryContext from "../../utils/StoryContext";
@@ -29,37 +30,21 @@ function GameCol(props) {
     }
 
     const pageWithTypist = (
-        <Typist avgTypingDelay={1} key={showTyping}>
+        <>
             <p className="event-text" style={{ fontFamily: 'Arcade', textTransform: 'initial' }}>{text}</p>
             {options.map(opt => {
-                if (!opt.showIfInventoryHas) {
-                    if (!opt.cost) {
-                        if (!opt.hideIfAlreadyHas) {
-                            return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
-                        }
-                    }
-                    else if (inventory.map((x) => x.item_id).indexOf(opt.hideIfAlreadyHas) >= 0) {
-                        return;
-                    } else if (money >= opt.cost) {
-                        return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
-                    }
-                }
-                else if (inventory.map((x) => x.item_id).indexOf(opt.showIfInventoryHas) > -1) {
-                    if (!opt.cost) {
-                        return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
-                    } else if (money >= opt.cost) {
-                        return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
-                    }
-                }
+                console.log(opt, "opt")
+                return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
             }
             )}
-        </Typist>
+        </>
     )
 
     const pageWithoutTypist = (
         <>
             <p className="event-text" style={{ fontFamily: 'Arcade', textTransform: 'initial' }}>{text}</p>
             {options.map(opt => {
+                console.log(opt)
                 if (!opt.showIfInventoryHas) {
                     if (!opt.cost) {
                         if (!opt.hideIfAlreadyHas) {
@@ -74,7 +59,6 @@ function GameCol(props) {
                 }
                 else if (inventory.map((x) => x.item_id).indexOf(opt.showIfInventoryHas) > -1) {
                     if (!opt.cost) {
-                        return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
                     } else if (money >= opt.cost) {
                         return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
                     }

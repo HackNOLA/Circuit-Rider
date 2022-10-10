@@ -59,7 +59,7 @@ function CharSelection(props) {
                         <h4 className="player-job" style={{ color: "goldenrod" }}>{el.occupation}</h4>
                         <p className="event-text">HP: {el.hp}</p>
                         <p className="event-text">Money: {el.money}</p>
-                        <p className="event-text">Fuel: {el.fuel}</p>
+                        <p className="event-text">Horse: {el.horse}</p>
                         <p className="event-text">Food: {el.food}</p>
                     </button>
                 )}
