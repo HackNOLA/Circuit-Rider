@@ -94,8 +94,8 @@ function Home() {
         <div>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                    <h1 className="display-4">Would you like to play a game?</h1>
-                    <p className="lead">This is a game full of christian education and fun learning.</p>
+                    <h1 className="display-4">Circuit Rider</h1>
+                    <p className="lead">An adventurous game making it fun to learn about Methodism.</p>
                 </div>
                 <button onClick={openModal} type="button" className="btn btn-primary" id="enter-game-btn" data-toggle="modal"
                     data-target="#exampleModalCenter">
@@ -104,7 +104,7 @@ function Home() {
             </div>
             <div className="footer footer-fluid">
                 <footer>
-                    <h3 id="footer" className="white-text"> &copy; <span id="footerLogo">Circuit-Rider</span></h3>
+                    <h3 id="footer" className="white-text"> &copy; <span id="footerLogo">The Long Way</span></h3>
                 </footer>
             </div>
 

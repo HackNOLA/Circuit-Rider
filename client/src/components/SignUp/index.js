@@ -1,13 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
 import API from "../../utils/API"
 import HomeContainer from "../HomeContainer";
 import HomeCol from "../HomeCol";
 import HomeRow from "../HomeRow";
 import SignUpBtn from "../SignUpBtn";
+import { UserContext } from "../../context/UserContext";
+import { useCookies } from 'react-cookie';
 import "../../pages/Home/style.css";
 
 const Signup = (props) => {
+    const [user, setUser] = useContext(UserContext)
+    const [cookies, setCookie, removeCookie] = useCookies(['user']);
 
     const [formObject, setFormObject] = useState({
         username: "",
@@ -29,7 +33,12 @@ const Signup = (props) => {
                 username: formObject.username,
                 password: formObject.password
             })
-                .then(res => history.push("/characters"))
+                .then(res => {
+                    setUser(res.data)
+                    removeCookie('user');
+                    setCookie('user', res.data)
+                    history.push("/characters")
+                })
                 .catch(err => console.log(err));
         }
         else (

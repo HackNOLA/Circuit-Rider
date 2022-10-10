@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7c5b234cc402bfd7fda64a0ab87d2ee",
+    "revision": "c4120651d2a9d7594eb27d6ed73f5412",
     "url": "/index.html"
   },
   {
-    "revision": "cbf6a5ebb34c88c504d0",
-    "url": "/static/css/main.8ea4a965.chunk.css"
+    "revision": "0ac7d264153bdd50a0bb",
+    "url": "/static/css/main.6e025dbf.chunk.css"
   },
   {
-    "revision": "3c98a877a8b38474aa66",
-    "url": "/static/js/2.b99987e7.chunk.js"
+    "revision": "28dc1f9848990ce66160",
+    "url": "/static/js/2.1bfcf573.chunk.js"
   },
   {
-    "revision": "0e77ccc9007464ffd437757d6ef9c957",
-    "url": "/static/js/2.b99987e7.chunk.js.LICENSE.txt"
+    "revision": "d9a6357cd7a3faf35e772b446f37193a",
+    "url": "/static/js/2.1bfcf573.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cbf6a5ebb34c88c504d0",
-    "url": "/static/js/main.d5fd2448.chunk.js"
+    "revision": "0ac7d264153bdd50a0bb",
+    "url": "/static/js/main.096a8d80.chunk.js"
   },
   {
     "revision": "0113c6786d9f2c6aa80d",
@@ -32,11 +32,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/RetroGaming.4c19fc87.ttf"
   },
   {
+    "revision": "044935e2f24c698f2430246b1ed7784d",
+    "url": "/static/media/bg-img.044935e2.png"
+  },
+  {
     "revision": "29402e93b23b85a2df5093b122389ec1",
     "url": "/static/media/pixel_brick.29402e93.png"
   },
   {
     "revision": "0ee48e358aa2e4c8bfc2c7141d97c0c1",
     "url": "/static/media/preview_image-700x350.0ee48e35.png"
+  },
+  {
+    "revision": "f9b3f97995593de53304118c5fb496d1",
+    "url": "/static/media/text-logo.f9b3f979.png"
   }
 ]);
