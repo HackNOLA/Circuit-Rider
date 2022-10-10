@@ -74,28 +74,22 @@ export default [
             {
                 text: "Would you like to purchase a Bible?(20)",
                 nextText: 2,
-                action: [1, 28],
+                action: [2, 28],
                 hideIfAlreadyHas: 0,
                 cost: 20
             },
             {
-                text: "Would you like to purchase a horse?(20)",
+                text: "Would you like to purchase a supplies?(20)",
                 nextText: 2,
-                action: [1, 14],
+                action: [4, 14],
                 hideIfAlreadyHas: 0,
                 cost: 20
             },
             {
                 text: "Would you like to purchase food for your travels?(10)",
                 nextText: 2,
-                action: [9, 26],
+                action: [3, 26],
                 cost: 10
-            },
-            {
-                text: "Would you like to purchase supplies for your travels?(15)",
-                nextText: 2,
-                action: [27, 13],
-                cost: 15
             },
             {
                 text: "Continue on your journey to the safe zone.",

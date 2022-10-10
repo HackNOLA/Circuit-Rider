@@ -37,7 +37,7 @@ function Game() {
     const [storyState, setStoryState] = useState(GameStory[0]);
     // console.log(storyState.text)
     const [cookies, setCookie] = useCookies(['character']);
-    const [playerState, setPlayerState] = useState(playableCharacters[3]);
+    const [playerState, setPlayerState] = useState(cookies.character);
     // const [playerState, setPlayerState] = useState(playerProfile);
     // console.log(storyState.text);
     // const { hp, 
@@ -64,10 +64,10 @@ function Game() {
         let money = playerState.money;
         let inventoryArr = playerState.inventory;
         let stateNum = storyState.id;
-        // console.log(stateNum);
-        console.log("actionnnn", actions)
+        console.log(stateNum);
         for (let i = 0; i < actions.length; i++) {
             const action = actions[i];
+            console.log("actionnnn", action)
             switch (action) {
 
                 case 1:
