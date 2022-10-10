@@ -4,7 +4,7 @@ const playableCharacters = [
     name: "Adam",
     occupation: "London Worker",
     image:
-      "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_adam.gif",
+      "https://i0.wp.com/southcountynews.org/wp-content/uploads/2014/08/circut-rider.jpg?ssl=1",
     hp: 120,
     money: 80,
     horse: 1,
@@ -17,7 +17,7 @@ const playableCharacters = [
     name: "Caitlan",
     occupation: "Oxford Student",
     image:
-      "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_caitlan.gif",
+      "https://www.northwindprints.com/p/473/traveling-minister-american-frontier-5885514.jpg.webp",
     hp: 90,
     money: 110,
     horse: 1,
@@ -30,7 +30,7 @@ const playableCharacters = [
     name: "Kevin",
     occupation: "Circuit Rider",
     image:
-      "https://project-3-arcade-game.s3-us-west-2.amazonaws.com/character_kevin.gif",
+      "http://4.bp.blogspot.com/-MTJu43wrdoE/Tj7x4XLixUI/AAAAAAAABhI/6Ra6HQwPhLk/s1600/preacher.jpg",
     hp: 100,
     money: 20,
     horse: 1,

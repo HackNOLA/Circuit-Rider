@@ -1,10 +1,9 @@
-# fly.toml file generated for nameless-pine-6462 on 2022-10-04T14:59:54-05:00
+# fly.toml file generated for circuit-rider on 2022-10-10T12:46:33-05:00
 
-app = "nameless-pine-6462"
+app = "circuit-rider"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = []
-
 
 [build]
   builder = "paketobuildpacks/builder:base"
