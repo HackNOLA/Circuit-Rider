@@ -33,7 +33,6 @@ function GameCol(props) {
         <>
             <p className="event-text" style={{ fontFamily: 'Arcade', textTransform: 'initial' }}>{text}</p>
             {options.map(opt => {
-                console.log(opt, "opt")
                 return <button className="option-button" key={opt.text} onClick={() => { props.actionMethod(opt.action, opt.nextText); typistCheck(opt.nextText); }}>{opt.text}</button>
             }
             )}
@@ -44,7 +43,6 @@ function GameCol(props) {
         <>
             <p className="event-text" style={{ fontFamily: 'Arcade', textTransform: 'initial' }}>{text}</p>
             {options.map(opt => {
-                console.log(opt)
                 if (!opt.showIfInventoryHas) {
                     if (!opt.cost) {
                         if (!opt.hideIfAlreadyHas) {
