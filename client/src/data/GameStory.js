@@ -132,7 +132,7 @@ export default [
             {
                 text: "Stop and Pray?",
                 nextText: 3,
-                action: [5]
+                action: [12]
             },
             {
                 text: "Sit down and study",

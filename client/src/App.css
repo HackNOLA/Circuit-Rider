@@ -40,11 +40,16 @@ nav {
   background-color: #333333 !important;
 }
 
+
 body {
-  /* background-color: #222222; */
+  background-color: rgb(49,47,46);
   /* background-image: url("./images/body_battern.png"); */
-  background-image: url("./images/bg-img.png");
+  background-image: url("./images/fallbg.png");
   background-size: cover;
+}
+
+.text-white {
+  color: #fff !important;
 }
 
 #stat-container {

@@ -92,10 +92,10 @@ function Game() {
                     break;
                 case 5:
                     console.log(playerState.inventory)
-                    // if (inventoryArr.filter(e => e.item_id === 4).length === 0) {
-                    //     // console.log(playerState.inventory)
-                    //     inventoryArr = playerState.inventory.concat([useableItems[4]]);
-                    // }
+                    if (inventoryArr.filter(e => e.item_id === 4).length === 0) {
+                        // console.log(playerState.inventory)
+                        inventoryArr = playerState.inventory.concat([useableItems[4]]);
+                    }
                     break;
                 case 6:
                     if (inventoryArr.filter(e => e.item_id === 5).length === 0) {
