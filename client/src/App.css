@@ -220,7 +220,7 @@ p #hp-value {
 .player-col {
   border: 1px solid goldenrod;
   border-right: none;
-  background-image: url("./images/pixel_brick.png");
+  background-image: url("./images/pixel_brick.png") !important;
   background-size: contain;
 }
 
