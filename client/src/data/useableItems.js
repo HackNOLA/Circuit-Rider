@@ -26,6 +26,13 @@ const useableItems = [
         desc: "A box of randoms to help you along your journey",
         image: "https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1665432091/supplies_prfd8l.png",
         action: []
+    },
+    {
+        item_id: 4,
+        name: "Horse",
+        desc: "A trusty steed.",
+        image: "https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1665177138/tinywow_horse_6453537_rr0frm.png",
+        action: []
     }
 ]
 

@@ -7,7 +7,6 @@ import PlayerContext from "../../utils/PlayerContext";
 function GameCol(props) {
     const { image, title, text, options, progress, id } = useContext(StoryContext);
     const { inventory, money } = useContext(PlayerContext);
-    console.log(props);
     const [showTyping, setShowTyping] = useState(0);
 
     let stateId = id;
