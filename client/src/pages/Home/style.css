@@ -1,8 +1,8 @@
 .jumbotron {
-    background-image: url(../../images/preview_image-700x350.png);
+    background-image: url(../../images/fallbg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 100vh;
     text-align: center;
     font-family: "Arcade"
 }

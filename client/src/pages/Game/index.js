@@ -91,13 +91,15 @@ function Game() {
                     }
                     break;
                 case 5:
+                    console.log(playerState.inventory)
                     if (inventoryArr.filter(e => e.item_id === 4).length === 0) {
+                        // console.log(playerState.inventory)
                         inventoryArr = playerState.inventory.concat([useableItems[4]]);
                     }
                     break;
                 case 6:
                     if (inventoryArr.filter(e => e.item_id === 5).length === 0) {
-                        inventoryArr = playerState.inventory.concat([useableItems[5]]);
+                        inventoryArr = playerState.inventory.concat([useableItems[4]]);
                     }
                     break;
                 case 7:
@@ -116,7 +118,11 @@ function Game() {
                     food = food + 5
                     break;
                 case 12:
-                    horse = horse - 1;
+                    // horse = horse - 1;
+                    console.log(playerState.inventory)
+                    if (inventoryArr.filter(e => e.item_id === 1).length === 0) {
+                        inventoryArr = playerState.inventory.concat([useableItems[1]]);
+                    }
                     break;
                 case 13:
                     horse = horse + 1;
@@ -208,12 +214,12 @@ function Game() {
                     break;
                 case 39:
                     //Removes Medicine
-                    inventoryArr.splice(inventoryArr.map((x) => x.item_id).indexOf(5), 1)
+                    inventoryArr.splice(inventoryArr.map((x) => x.item_id).indexOf(4), 1)
                     break;
                 case 40:
                     //Removes Medicine and Gains HP
                     health = health + 50;
-                    inventoryArr.splice(inventoryArr.map((x) => x.item_id).indexOf(5), 1)
+                    inventoryArr.splice(inventoryArr.map((x) => x.item_id).indexOf(4), 1)
                 default:
                     break
             }
