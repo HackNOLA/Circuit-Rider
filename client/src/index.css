@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.audio {
+  width: 3px;
+  height: 40px;
+  background-color: #333;
+  display: flex;
+}
+.player {
+  height: 40px;
+}
+
+.play-indicator {
+  font-size: 1.2rem;
+  color: white;
+  background-color: #555;
+  height: 100%;
+  width: 40px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.progress {
+  width: 100%;
+}
+.loading {
+  width: 10%;
+  height: 100%;
+  background-color: #222;
+}
+.logo:hover {
+  color: lightseagreen;
+  background-color: #566;
+}
+b {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+}
