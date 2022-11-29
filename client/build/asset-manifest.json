@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e025dbf.chunk.css",
-    "main.js": "/static/js/main.fb770ba0.chunk.js",
-    "main.js.map": "/static/js/main.fb770ba0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.318fcdb3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.318fcdb3.js.map",
-    "static/js/2.e0d41962.chunk.js": "/static/js/2.e0d41962.chunk.js",
-    "static/js/2.e0d41962.chunk.js.map": "/static/js/2.e0d41962.chunk.js.map",
+    "main.css": "/static/css/main.8fa6f9e8.css",
+    "main.js": "/static/js/main.b0342861.js",
+    "static/media/pixel_brick.png": "/static/media/pixel_brick.4a70d743347ff4d5eb0c.png",
+    "static/media/fallbg.png": "/static/media/fallbg.973c70fbd5c6e5de6039.png",
+    "static/media/RetroGaming.ttf": "/static/media/RetroGaming.c1a52a602585b2d6baf8.ttf",
+    "static/media/text-logo.png": "/static/media/text-logo.49dc8a3f635d0d0ba65b.png",
+    "static/media/I-pixel-u.ttf": "/static/media/I-pixel-u.17939e70931866404ebb.ttf",
     "index.html": "/index.html",
-    "precache-manifest.f02af34004d5b61b8639c6d20010851d.js": "/precache-manifest.f02af34004d5b61b8639c6d20010851d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.6e025dbf.chunk.css.map": "/static/css/main.6e025dbf.chunk.css.map",
-    "static/js/2.e0d41962.chunk.js.LICENSE.txt": "/static/js/2.e0d41962.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/pixel_brick.29402e93.png",
-    "static/media/style.css": "/static/media/preview_image-700x350.0ee48e35.png",
-    "static/media/text-logo.png": "/static/media/text-logo.f9b3f979.png"
+    "main.8fa6f9e8.css.map": "/static/css/main.8fa6f9e8.css.map",
+    "main.b0342861.js.map": "/static/js/main.b0342861.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.318fcdb3.js",
-    "static/js/2.e0d41962.chunk.js",
-    "static/css/main.6e025dbf.chunk.css",
-    "static/js/main.fb770ba0.chunk.js"
+    "static/css/main.8fa6f9e8.css",
+    "static/js/main.b0342861.js"
   ]
 }

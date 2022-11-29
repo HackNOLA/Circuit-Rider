@@ -7,7 +7,7 @@ export default [
     title: 'Introduction',
     text: 'It’s 1764. The founder of Methodism, John Wesley, has deployed you  and the first Circuit Rider in America, Robert Strawbridge, to continue Wesley’s mission in America. Are you ready to start your journey?',
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_1.gif',
+      'https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1669686990/cr_scene_01_n8yjlp.jpg',
     progress: 0,
     options: [
       // {
@@ -27,7 +27,7 @@ export default [
     title: 'Introduction',
     text: 'Skipping out on supplies?',
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_1.gif',
+      'https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1669686990/img_0086_tx9fif.jpg',
     progress: 0,
     options: [
       {
@@ -42,7 +42,7 @@ export default [
     title: 'Introduction',
     text: "You decide to gather supplies and see what he has that might be useful for the long journey. You can buy whatever you need at Matt's General Store.",
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_1.gif',
+      'https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1669686990/img_0086_tx9fif.jpg',
     progress: 0,
     options: [
       {
@@ -57,7 +57,7 @@ export default [
     title: "Welcome to Matt's General Store",
     text: "Hello, I'm Matt. So you're on the a Circuit Rider journey? I can fix you up with anything you need.",
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_2.gif',
+      'https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1669686990/img_0086_tx9fif.jpg',
     progress: 4,
     options: [
       {
@@ -105,7 +105,7 @@ export default [
     title: 'Leaving for the Society Meeting',
     text: 'You can travel on horse to reach your destination. If you have multiple horses, you can get there quicker.',
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_3.gif',
+      'https://res.cloudinary.com/https-pilot-tune-herokuapp-com/image/upload/v1669686990/img_0086_tx9fif.jpg',
     progress: 4,
     options: [
       {
@@ -158,7 +158,7 @@ export default [
     And the covenant which I have made on earth,
     let it be ratified in heaven. Amen.`,
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_3-1.gif',
+      'https://i.pinimg.com/originals/05/14/c2/0514c22613571ee3121e67f1dff34186.gif',
     progress: 8,
     // action: 1,
     // action 1 + bone
@@ -180,7 +180,7 @@ export default [
     title: 'Study',
     text: 'Wesley’s aldersgate experience: In the evening I went very unwillingly to a society in Aldersgate Street, where one was reading [Martin] Luther’s preface to the Epistle to the Romans. About a quarter before nine, while he was describing the change which God works in the heart through faith in Christ, I felt my heart strangely warmed. I felt I did trust in Christ, Christ alone, for salvation; and an assurance was given me that He had taken away my sins, even mine, and saved me from the law of sin and death.',
     image:
-      'https://project-3-arcade-game.s3-us-west-2.amazonaws.com/frame_3-1.gif',
+      'https://i.pinimg.com/originals/05/14/c2/0514c22613571ee3121e67f1dff34186.gif',
     progress: 4,
     // action: 2,
     // "action 2 -5 fuel"
